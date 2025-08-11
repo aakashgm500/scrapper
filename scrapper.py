@@ -7,8 +7,8 @@ import json
 # create repository in github
 
 #go to git bash
-# git config --global username "Aakash Gharti Magar"
-# git config --global username "hdaash@gmail.com"
+# git config --global user.name "Aakash Gharti Magar"
+# git config --global user.email "hdaash@gmail.com"
 
 # git init
 # git status => if you want to check what are the status of files
@@ -16,6 +16,13 @@ import json
 # git add .
 # git commit -m your message
 # copy paste git code from github
+
+########
+# 1. code change
+# 2. git add .
+# 3. git commit -m "Your mw=essage"
+# 4. git push
+########
 
 
 URL = "https://books.toscrape.com/"
