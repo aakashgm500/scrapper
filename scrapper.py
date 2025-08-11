@@ -51,8 +51,10 @@ def scrape_books(url):
 
 
 
+def main():
 
+    books = scrape_books(URL)
+    with open("books.json", "w") as f:
+        json.dump(books, f, indent=2, ensure_ascii = False)
 
-books = scrape_books(URL)
-with open("books.json", "w") as f:
-    json.dump(books, f, indent=2, ensure_ascii = False)
+main()
