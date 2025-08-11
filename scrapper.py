@@ -3,6 +3,21 @@ from bs4 import BeautifulSoup
 import json
 #git config --global user.name "Aakash Gharti Magar"
 
+# install git
+# create repository in github
+
+#go to git bash
+# git config --global username "Aakash Gharti Magar"
+# git config --global username "hdaash@gmail.com"
+
+# git init
+# git status => if you want to check what are the status of files
+# git diff => if you want to check what are the changes
+# git add .
+# git commit -m your message
+# copy paste git code from github
+
+
 URL = "https://books.toscrape.com/"
 
 def scrape_books(url):
